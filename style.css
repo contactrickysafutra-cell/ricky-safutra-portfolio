@@ -71,8 +71,11 @@ p { color: var(--muted); }
 .about-copy strong { color: var(--navy); }
 .note { padding-left: 13px; border-left: 2px solid var(--blue); font-size: 11px !important; }
 .text-link { display: inline-flex; align-items: center; gap: 10px; color: var(--navy); font-size: 12px; font-weight: 800; }
-.contact-mini { padding-left: 24px; border-left: 1px solid var(--line); }
-.contact-mini > div { display: flex; gap: 12px; margin-block: 20px; }
+
+.contact-mini {
+  padding-left: 24px;
+  border-left: 1px solid var(--line);
+}
 
 .contact-mini > div {
   display: flex;
@@ -87,7 +90,6 @@ p { color: var(--muted); }
   justify-content: center;
   flex: 0 0 28px;
   width: 28px;
-  min-width: 28px;
   height: 28px;
   margin-top: 1px;
   color: var(--blue);
@@ -118,9 +120,6 @@ p { color: var(--muted); }
 .contact-mini a {
   color: var(--muted);
 }
-.contact-mini p { margin: 0; font-size: 11px; overflow-wrap: anywhere; }
-.contact-mini strong { color: var(--navy); }
-.contact-mini a { color: var(--muted); }
 .expertise-section { background: var(--navy-deep); color: white; }
 .expertise-inner { display: grid; grid-template-columns: .75fr 1.5fr; gap: 70px; padding-block: 86px; }
 .eyebrow-light { color: #82b5ff; }
