@@ -1,22 +1,21 @@
 const menuToggle = document.querySelector(".menu-toggle");
-const nav = document.querySelector("#main-nav");
+const mainNav = document.querySelector("#main-nav");
 
-if (menuToggle && nav) {
+if (menuToggle && mainNav) {
   menuToggle.addEventListener("click", () => {
-    const isOpen = nav.classList.toggle("is-open");
+    const isOpen = mainNav.classList.toggle("open");
     menuToggle.setAttribute("aria-expanded", String(isOpen));
     menuToggle.setAttribute("aria-label", isOpen ? "Tutup navigasi" : "Buka navigasi");
-    menuToggle.textContent = isOpen ? "×" : "☰";
   });
 
-  nav.querySelectorAll("a").forEach((link) => {
+  mainNav.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
-      nav.classList.remove("is-open");
+      mainNav.classList.remove("open");
       menuToggle.setAttribute("aria-expanded", "false");
       menuToggle.setAttribute("aria-label", "Buka navigasi");
-      menuToggle.textContent = "☰";
     });
   });
 }
 
-document.querySelector("#year").textContent = new Date().getFullYear();
+const yearElement = document.querySelector("#year");
+if (yearElement) yearElement.textContent = new Date().getFullYear();
