@@ -17,6 +17,7 @@ Website statis responsif menggunakan HTML, CSS, dan JavaScript. Dirancang untuk 
    - lokasi dan narasi profil agar sesuai fakta.
 4. Tinjau semua keahlian dan proyek. Hapus atau ubah hal yang belum sesuai pengalaman.
 6. Studi kasus Talent Sourcing Strategy ditandai ongoing; perbarui status hanya jika ada perkembangan yang dapat diverifikasi.
+7. Candidate Screening Framework ditandai sebagai contoh konseptual; jangan menyebutnya sebagai proses resmi atau hasil kerja terukur jika belum diterapkan dan diverifikasi.
 5. Jangan unggah CV kandidat, data pribadi, atau dokumen internal perusahaan.
 
 ## Melihat website di komputer
