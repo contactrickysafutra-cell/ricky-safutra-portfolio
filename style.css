@@ -84,6 +84,9 @@ p { color: var(--muted); }
   min-width: 28px;
   text-align: center;
 }
+.whatsapp-icon {
+  color: var(--blue);
+}
 .contact-mini p { margin: 0; font-size: 11px; overflow-wrap: anywhere; }
 .contact-mini strong { color: var(--navy); }
 .contact-mini a { color: var(--muted); }
