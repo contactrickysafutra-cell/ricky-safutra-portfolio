@@ -103,6 +103,23 @@ p { color: var(--muted); }
 .art-sheet i { height: 22px; border-radius: 3px; background: #9eb6cf; }
 .art-sheet i:nth-child(3n+1) { background: #4778d0; }
 .art-database { font-size: 36px; text-align: center; line-height: 1.05; color: var(--blue); }
+.project-card-featured { border-color: rgba(71,120,208,.35); }
+.art-art-label { position: absolute; right: 18px; bottom: 15px; max-width: 70%; font-size: 10px; font-weight: 800; letter-spacing: .13em; text-align: right; }
+.project-status { display: inline-flex; align-items: center; gap: 7px; }
+.status-dot { width: 7px; height: 7px; display: inline-block; border-radius: 50%; background: #4778d0; }
+.case-details { margin-top: 18px; border-top: 1px solid var(--line); }
+.case-details summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 15px 0 2px; color: var(--navy); font-size: 12px; font-weight: 800; cursor: pointer; list-style: none; }
+.case-details summary::-webkit-details-marker { display: none; }
+.case-details summary span { color: var(--blue); font-size: 17px; transition: transform .2s; }
+.case-details[open] summary span { transform: rotate(45deg); }
+.case-body { padding-top: 14px; }
+.case-body section { margin-bottom: 18px; }
+.case-body h4 { margin: 0 0 7px; color: var(--navy); font-size: 12px; }
+.case-body p, .case-body li { font-size: 11px; line-height: 1.75; }
+.case-body p { margin: 0; }
+.case-body ul { margin: 0; padding-left: 18px; }
+.case-body li + li { margin-top: 7px; }
+.case-disclaimer { padding: 12px; border-radius: 8px; background: #f3f6fa; color: #596b7d; }
 .project-content { padding: 22px; }
 .project-type { margin-bottom: 8px; color: var(--blue); font-size: 9px; font-weight: 800; letter-spacing: .12em; }
 .project-content h3 { margin-bottom: 10px; color: var(--navy); font-size: 19px; }

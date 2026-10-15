@@ -16,6 +16,7 @@ Website statis responsif menggunakan HTML, CSS, dan JavaScript. Dirancang untuk 
    - tautan LinkedIn contoh dengan tautan profil yang benar.
    - lokasi dan narasi profil agar sesuai fakta.
 4. Tinjau semua keahlian dan proyek. Hapus atau ubah hal yang belum sesuai pengalaman.
+6. Studi kasus Talent Sourcing Strategy ditandai ongoing; perbarui status hanya jika ada perkembangan yang dapat diverifikasi.
 5. Jangan unggah CV kandidat, data pribadi, atau dokumen internal perusahaan.
 
 ## Melihat website di komputer
