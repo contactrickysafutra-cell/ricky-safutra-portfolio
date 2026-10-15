@@ -73,7 +73,17 @@ p { color: var(--muted); }
 .text-link { display: inline-flex; align-items: center; gap: 10px; color: var(--navy); font-size: 12px; font-weight: 800; }
 .contact-mini { padding-left: 24px; border-left: 1px solid var(--line); }
 .contact-mini > div { display: flex; gap: 12px; margin-block: 20px; }
-.mini-icon { color: var(--blue); font-weight: 800; }
+.mini-icon {
+  color: var(--blue);
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 28px;
+  width: 28px;
+  min-width: 28px;
+  text-align: center;
+}
 .contact-mini p { margin: 0; font-size: 11px; overflow-wrap: anywhere; }
 .contact-mini strong { color: var(--navy); }
 .contact-mini a { color: var(--muted); }
